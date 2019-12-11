@@ -1,0 +1,45 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+#left, #right{
+    height: 100vh;
+}
+
+#left{
+    background: linear-gradient(0deg, rgba(34,38,112,1) 0%, rgba(67,75,223,1) 100%);
+}
+
+#left .row{
+    height: 100vh;
+}
+
+#right img{
+    width: auto;
+    max-width: 60%;
+    margin: auto;
+}
+
+.add-button{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#left img{
+    width: 100%;
+}
+
+@media screen and (orientation: portrait){
+    .col-6{
+        width: 100% !important;
+        height: 50vh !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+
+    #left .row{
+        height: 50vh !important;
+    }
+}

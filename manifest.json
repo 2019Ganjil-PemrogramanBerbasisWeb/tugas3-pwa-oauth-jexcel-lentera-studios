@@ -1,0 +1,17 @@
+{
+    "name": "Twibbon.in",
+    "short_name": "Twb.in",
+	"description" : "Pasang Twibbon Ini Lho ITS! Anda",
+	"start_url" : "http://trofhee.000webhostapp.com/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+	"lang" : "Indonesian",
+	"orientation" : "portrait",
+    "icons": [
+        {
+            "src": "img/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
